@@ -1,6 +1,6 @@
 {
   "name": "statsd-mongoose",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A statsd client for mongoose",
   "main": "./src/statsd-mongoose.js",
   "scripts": {
