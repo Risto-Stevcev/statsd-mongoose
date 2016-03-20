@@ -1,0 +1,40 @@
+{
+  "name": "statsd-mongoose",
+  "version": "0.0.1",
+  "description": "A statsd client for mongoose",
+  "main": "./src/statsd-mongoose.js",
+  "scripts": {
+    "test": "./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha",
+    "docs": "./node_modules/.bin/docco ./src/statsd-mongoose.js",
+    "coveralls": "cat ./coverage/lcov.info | ./node_modules/.bin/coveralls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Risto-Stevcev/statsd-mongoose.git"
+  },
+  "keywords": [
+    "statsd",
+    "client",
+    "mongoose",
+    "mongo",
+    "metrics"
+  ],
+  "author": "Risto Stevcev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Risto-Stevcev/statsd-mongoose/issues"
+  },
+  "homepage": "https://github.com/Risto-Stevcev/statsd-mongoose#readme",
+  "devDependencies": {
+    "chai": "3.5.0",
+    "coveralls": "2.11.8",
+    "docco": "0.7.0",
+    "istanbul": "0.4.2",
+    "mocha": "2.4.5",
+    "mockgoose": "5.4.0-rc.1",
+    "mongoose": "4.4.8"
+  },
+  "dependencies": {
+    "lynx": "0.2.0"
+  }
+}
